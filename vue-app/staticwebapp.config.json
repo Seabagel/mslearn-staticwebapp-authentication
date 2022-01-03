@@ -5,7 +5,7 @@
       "statusCode": 404
     },
     {
-      "route": "/api/products/*",
+      "route": "/products",
       "allowedRoles": ["authenticated"]
     },
     {
