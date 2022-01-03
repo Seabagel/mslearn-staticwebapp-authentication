@@ -53,7 +53,7 @@ export default {
         </template>
         <a
           v-if="userInfo"
-          :href="`/.auth/login/${provider}?post_login_redirect_uri=${redirect}`"
+          :href="`/.auth/logout?post_logout_redirect_uri=/home`"
         >
           Logout
         </a>
